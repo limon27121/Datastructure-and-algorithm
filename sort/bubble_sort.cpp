@@ -10,8 +10,12 @@ void bubbleSort(int array[], int size) {
   for (int step = 0; step < size-1; step++) {
       
     // loop to compare array elements
+  //normal condition
 
-    for (int i = 0; i < size-1; i++) {
+    // for (int i = 0; i < size-1; i++)
+    
+    //updated condition
+     for (int i = 0; i < size-1-step; i++) {
 
       // compare two adjacent elements
       // change > to < to sort in descending order
