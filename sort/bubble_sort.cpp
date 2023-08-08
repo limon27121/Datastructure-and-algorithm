@@ -7,11 +7,11 @@ using namespace std;
 void bubbleSort(int array[], int size) {
 
   // loop to access each array element
-  for (int step = 0; step < size; step++) {
+  for (int step = 0; step < size-1; step++) {
       
     // loop to compare array elements
-    //loop works until the diff of step size and main size are not equal to zero 
-    for (int i = 0; i < size-step; i++) {
+
+    for (int i = 0; i < size-1; i++) {
 
       // compare two adjacent elements
       // change > to < to sort in descending order
