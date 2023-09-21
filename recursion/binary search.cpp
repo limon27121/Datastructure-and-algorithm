@@ -12,7 +12,7 @@ bool binary_search(vector<int>v,int value,int first_index,int last_index){
          int mid_value=v[midindex];
          //value found
         if(mid_value==value){
-            return 1;// it aslo gives midindex
+            return 1;// it also gives midindex
         }
         //value less than midvalue
      else if(value<mid_value){
@@ -29,7 +29,9 @@ bool binary_search(vector<int>v,int value,int first_index,int last_index){
 }
 int main() {
     int arr[]={10,5,-20,100,1000,-500};
+    //declare vector
     vector<int>v(arr,arr+6);
+    //sort vector
     sort(v.begin(),v.end());
     int value;
     cin>>value;
